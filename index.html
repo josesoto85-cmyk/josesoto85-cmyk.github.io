@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>José Antonio Soto Pérez — Circular economy consultant</title>
-<meta name="description" content="José Antonio Soto Pérez: circular economy consultant for plastics. Plastic lumber, technical training and South-South technology transfer in the Caribbean and Central America.">
-<meta property="og:title" content="José Antonio Soto Pérez — Circular economy consultant">
-<meta property="og:description" content="Twelve years turning recovered plastic into plastic lumber, and training communities across the Caribbean and Central America to do the same.">
+<title>José Antonio Soto Pérez — Engineer, circular economy consultant and founder</title>
+<meta name="description" content="José Antonio Soto Pérez: engineer, circular economy consultant and founder. Plastic lumber and South-South technology transfer (CNA A-TRES), operations consulting (Jasmine Global Partners) and software product development (Atlas).">
+<meta property="og:title" content="José Antonio Soto Pérez — Engineer, circular economy consultant and founder">
+<meta property="og:description" content="Circular economy, operations consulting and software engineering: CNA A-TRES, Jasmine Global Partners and Atlas.">
 <meta property="og:type" content="profile">
 <meta property="og:image" content="https://josesoto85-cmyk.github.io/photo.jpg">
 <link rel="canonical" href="https://josesoto85-cmyk.github.io/">
@@ -20,15 +20,19 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "José Antonio Soto Pérez",
+  "alternateName": "Jose Antonio Soto Perez",
   "image": "https://josesoto85-cmyk.github.io/photo.jpg",
   "url": "https://josesoto85-cmyk.github.io/",
-  "alternateName": "Jose Antonio Soto Perez",
-  "jobTitle": "Circular economy consultant",
-  "worksFor": {"@type": "Organization", "name": "CNA A-TRES"},
+  "jobTitle": "Engineer and circular economy consultant",
+  "worksFor": [
+    {"@type": "Organization", "name": "CNA A-TRES"},
+    {"@type": "Organization", "name": "Jasmine Global Partners Corp."}
+  ],
   "alumniOf": {"@type": "CollegeOrUniversity", "name": "Universidad de las Ciencias Informáticas"},
   "address": {"@type": "PostalAddress", "addressLocality": "Cancún", "addressCountry": "MX"},
+  "knowsAbout": ["Circular economy", "Plastic recycling", "Plastic lumber", "Technology transfer", "Operations consulting", "Domain-Driven Design", "Software architecture"],
   "knowsLanguage": ["es", "en"],
-  "sameAs": ["https://www.linkedin.com/in/jsbc"]
+  "sameAs": ["https://www.linkedin.com/in/jsbc", "https://github.com/josesoto85-cmyk"]
 }
 </script>
 <style>
@@ -104,6 +108,17 @@ footer { padding: 32px 0 48px; color: var(--muted); font-size: 14px; border-top:
   .hero { padding: 48px 0 32px; }
 }
 [data-lang-hidden] { display: none !important; }
+
+
+.pillars { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
+.pillar { background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--accent); border-radius: 10px; padding: 18px; }
+.pillar .kicker { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); font-weight: 700; margin: 0 0 6px; }
+.pillar h3 { margin: 0 0 8px; font-size: 18px; }
+.pillar p { margin: 0; color: var(--muted); font-size: 15px; }
+.grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; padding: 0; list-style: none; }
+.tags li { font-size: 13px; padding: 2px 10px; border-radius: 999px; background: var(--accent-soft); color: var(--text); }
+.edu { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
 </style>
 </head>
 <body>
@@ -111,9 +126,9 @@ footer { padding: 32px 0 48px; color: var(--muted); font-size: 14px; border-top:
   <div class="wrap">
     <a class="brand" href="#">José Antonio Soto Pérez</a>
     <nav>
-      <a class="link" href="#about" data-en="About" data-es="Perfil">About</a>
+      <a class="link" href="#what" data-en="What I do" data-es="Qué hago">What I do</a>
       <a class="link" href="#experience" data-en="Experience" data-es="Experiencia">Experience</a>
-      <a class="link" href="#press" data-en="Press" data-es="Prensa">Press</a>
+      <a class="link" href="#projects" data-en="Projects" data-es="Proyectos">Projects</a>
       <a class="link" href="#contact" data-en="Contact" data-es="Contacto">Contact</a>
       <div class="lang" role="group" aria-label="Language">
         <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
@@ -126,94 +141,91 @@ footer { padding: 32px 0 48px; color: var(--muted); font-size: 14px; border-top:
 <main class="wrap">
   <section class="hero" style="border-top:0">
     <img class="portrait" src="photo.jpg" width="120" height="120" alt="José Antonio Soto Pérez">
-    <h1 data-en="Circular economy consultant for plastics" data-es="Consultor en economía circular de plásticos">Circular economy consultant for plastics</h1>
-    <p class="lead"
-       data-en="Twelve years turning recovered plastic into plastic lumber, and training communities across the Caribbean and Central America to do the same."
-       data-es="Doce años transformando plástico recuperado en ecomadera y enseñando a comunidades del Caribe y Centroamérica a hacerlo.">Twelve years turning recovered plastic into plastic lumber, and training communities across the Caribbean and Central America to do the same.</p>
+    <h1 data-en="Engineer, circular economy consultant and founder" data-es="Ingeniero, consultor en economía circular y fundador">Engineer, circular economy consultant and founder</h1>
+    <p class="lead" data-en="Twelve years turning recovered plastic into plastic lumber across the Caribbean and Central America. Today I bring that field experience together with software engineering and operations consulting, through Jasmine Global Partners and Atlas." data-es="Doce años transformando plástico recuperado en ecomadera en el Caribe y Centroamérica. Hoy uno esa experiencia de campo con la ingeniería de software y la consultoría de operaciones, a través de Jasmine Global Partners y Atlas.">Twelve years turning recovered plastic into plastic lumber across the Caribbean and Central America. Today I bring that field experience together with software engineering and operations consulting, through Jasmine Global Partners and Atlas.</p>
     <div class="cta">
       <a class="btn primary" href="https://www.linkedin.com/in/jsbc" rel="me noopener" target="_blank" data-en="Connect on LinkedIn" data-es="Contactar en LinkedIn">Connect on LinkedIn</a>
-      <a class="btn ghost" href="#experience" data-en="See my work" data-es="Ver mi trabajo">See my work</a>
+      <a class="btn ghost" href="#what" data-en="See my work" data-es="Ver mi trabajo">See my work</a>
     </div>
   </section>
 
-  <section id="about">
-    <h2 data-en="About" data-es="Perfil">About</h2>
-    <p data-en="I am co-founder and Vice President of CNA A-TRES (Matanzas, Cuba), the cooperative that pioneered plastic lumber (“ecomadera”) production in Cuba from post-industrial and post-consumer plastics, with no virgin resin. I have also taken part in its aluminum production line, including casting."
-       data-es="Soy socio fundador y vicepresidente de CNA A-TRES (Matanzas, Cuba), la cooperativa pionera en Cuba en la producción de ecomadera a partir de plásticos post-industriales y post-consumo, sin resina virgen. También he participado en su línea de aluminio con fundición.">I am co-founder and Vice President of CNA A-TRES (Matanzas, Cuba), the cooperative that pioneered plastic lumber (“ecomadera”) production in Cuba from post-industrial and post-consumer plastics, with no virgin resin. I have also taken part in its aluminum production line, including casting.</p>
-    <p data-en="From 2022 to 2025 I led, on behalf of A-TRES, a South-South cooperation project under the GEF Small Grants Programme (UNDP) that transferred this technology to communities in Belize and Honduras. Based in Cancún, I now work on circular economy and marine litter projects."
-       data-es="Entre 2022 y 2025 fui responsable, por A-TRES, de un proyecto de cooperación Sur-Sur del Programa de Pequeñas Donaciones del FMAM (PNUD) que transfirió esta tecnología a comunidades de Belice y Honduras. Hoy, desde Cancún, colaboro en proyectos de economía circular y basura marina.">From 2022 to 2025 I led, on behalf of A-TRES, a South-South cooperation project under the GEF Small Grants Programme (UNDP) that transferred this technology to communities in Belize and Honduras. Based in Cancún, I now work on circular economy and marine litter projects.</p>
-    <div class="facts">
+  <section id="what">
+    <h2 data-en="What I do" data-es="Qué hago">What I do</h2>
+    <div class="pillars">
+      <div class="pillar"><p class="kicker" data-en="Circular economy" data-es="Economía circular">Circular economy</p><h3 data-en="CNA A-TRES" data-es="CNA A-TRES">CNA A-TRES</h3><p data-en="Plastic lumber production, technical training and South-South technology transfer to communities in Belize and Honduras." data-es="Producción de ecomadera, capacitación técnica y transferencia de tecnología Sur-Sur a comunidades de Belice y Honduras.">Plastic lumber production, technical training and South-South technology transfer to communities in Belize and Honduras.</p></div>
+      <div class="pillar"><p class="kicker" data-en="Consulting" data-es="Consultoría">Consulting</p><h3 data-en="Jasmine Global Partners" data-es="Jasmine Global Partners">Jasmine Global Partners</h3><p data-en="Operational efficiency, sustainable manufacturing and technology transfer for mid-sized companies in Central America and the United States." data-es="Eficiencia operacional, manufactura sostenible y transferencia tecnológica para empresas medianas de Centroamérica y Estados Unidos.">Operational efficiency, sustainable manufacturing and technology transfer for mid-sized companies in Central America and the United States.</p></div>
+      <div class="pillar"><p class="kicker" data-en="Technology" data-es="Tecnología">Technology</p><h3 data-en="Atlas" data-es="Atlas">Atlas</h3><p data-en="Engineer in Informatics Sciences. I design and build software products with Domain-Driven Design; Atlas is my current platform in development." data-es="Ingeniero en Ciencias Informáticas. Diseño y construyo productos de software con Domain-Driven Design; Atlas es mi plataforma actual en desarrollo.">Engineer in Informatics Sciences. I design and build software products with Domain-Driven Design; Atlas is my current platform in development.</p></div>
+    </div>
+    <div class="facts" style="margin-top:18px">
       <div class="fact"><strong>12</strong><span data-en="years in plastic recycling" data-es="años en reciclaje de plástico">years in plastic recycling</span></div>
       <div class="fact"><strong>3</strong><span data-en="countries in the South-South project" data-es="países en el proyecto Sur-Sur">countries in the South-South project</span></div>
       <div class="fact"><strong>USD 350k</strong><span data-en="project budget (GEF SGP + co-financing)" data-es="presupuesto del proyecto (PPD/FMAM + cofinanciación)">project budget (GEF SGP + co-financing)</span></div>
-      <div class="fact"><strong>2025</strong><span data-en="Belize plant handed over" data-es="entrega de la planta de Belice">Belize plant handed over</span></div>
+      <div class="fact"><strong>2</strong><span data-en="organizations founded (A-TRES 2014, Jasmine 2026)" data-es="organizaciones fundadas (A-TRES 2014, Jasmine 2026)">organizations founded (A-TRES 2014, Jasmine 2026)</span></div>
     </div>
   </section>
 
   <section id="expertise">
     <h2 data-en="Areas of expertise" data-es="Áreas de especialización">Areas of expertise</h2>
-    <div class="grid">
-      <div class="card"><h3 data-en="Plastic and aluminum processing" data-es="Transformación de plástico y aluminio">Plastic and aluminum processing</h3>
-        <p data-en="Sorting, shredding, extrusion and molding of plastic lumber; aluminum production including casting." data-es="Clasificación, trituración, extrusión y moldeo de ecomadera; producción de aluminio con fundición.">Sorting, shredding, extrusion and molding of plastic lumber; aluminum production including casting.</p></div>
-      <div class="card"><h3 data-en="Technical training" data-es="Capacitación técnica">Technical training</h3>
-        <p data-en="Training design and delivery for technicians and communities, from classroom to hands-on plant workshops." data-es="Diseño y ejecución de capacitación para técnicos y comunidades, del aula al taller práctico en planta.">Training design and delivery for technicians and communities, from classroom to hands-on plant workshops.</p></div>
-      <div class="card"><h3 data-en="Safety in recycling plants" data-es="Seguridad en plantas de reciclaje">Safety in recycling plants</h3>
-        <p data-en="Operating protocols, personal protective equipment and lockout/tagout (LOTO)." data-es="Protocolos de operación, equipos de protección y bloqueo y etiquetado de energías (LOTO).">Operating protocols, personal protective equipment and lockout/tagout (LOTO).</p></div>
-      <div class="card"><h3 data-en="South-South technology transfer" data-es="Transferencia Sur-Sur">South-South technology transfer</h3>
-        <p data-en="Feasibility assessments, community capacity building and coordination with NGOs, local governments and donors." data-es="Diagnósticos de factibilidad, fortalecimiento de capacidades comunitarias y coordinación con ONG, gobiernos locales y donantes.">Feasibility assessments, community capacity building and coordination with NGOs, local governments and donors.</p></div>
+    <div class="grid3">
+      <div class="card"><h3 data-en="Plastic and aluminum processing" data-es="Transformación de plástico y aluminio">Plastic and aluminum processing</h3><p data-en="Sorting, shredding, extrusion and molding of plastic lumber; aluminum production including casting." data-es="Clasificación, trituración, extrusión y moldeo de ecomadera; producción de aluminio con fundición.">Sorting, shredding, extrusion and molding of plastic lumber; aluminum production including casting.</p></div>
+      <div class="card"><h3 data-en="Technical training" data-es="Capacitación técnica">Technical training</h3><p data-en="Training design and delivery for technicians and communities, from classroom to hands-on plant workshops." data-es="Diseño y ejecución de capacitación para técnicos y comunidades, del aula al taller práctico en planta.">Training design and delivery for technicians and communities, from classroom to hands-on plant workshops.</p></div>
+      <div class="card"><h3 data-en="Safety in recycling plants" data-es="Seguridad en plantas de reciclaje">Safety in recycling plants</h3><p data-en="Operating protocols, personal protective equipment and lockout/tagout (LOTO)." data-es="Protocolos de operación, equipos de protección y bloqueo y etiquetado de energías (LOTO).">Operating protocols, personal protective equipment and lockout/tagout (LOTO).</p></div>
+      <div class="card"><h3 data-en="South-South technology transfer" data-es="Transferencia Sur-Sur">South-South technology transfer</h3><p data-en="Feasibility assessments, community capacity building and coordination with NGOs, local governments and donors." data-es="Diagnósticos de factibilidad, fortalecimiento de capacidades comunitarias y coordinación con ONG, gobiernos locales y donantes.">Feasibility assessments, community capacity building and coordination with NGOs, local governments and donors.</p></div>
+      <div class="card"><h3 data-en="Operations consulting" data-es="Consultoría de operaciones">Operations consulting</h3><p data-en="Process design, cost reduction and digitization with ERP systems; service and revenue models for consulting." data-es="Diseño de procesos, reducción de costes y digitalización con sistemas ERP; modelos de servicio e ingresos para consultoría.">Process design, cost reduction and digitization with ERP systems; service and revenue models for consulting.</p></div>
+      <div class="card"><h3 data-en="Software architecture and product" data-es="Arquitectura de software y producto">Software architecture and product</h3><p data-en="Domain-Driven Design, architecture decision records, TypeScript, NestJS, Next.js and PostgreSQL; AI-assisted development." data-es="Domain-Driven Design, registros de decisiones de arquitectura, TypeScript, NestJS, Next.js y PostgreSQL; desarrollo asistido por IA.">Domain-Driven Design, architecture decision records, TypeScript, NestJS, Next.js and PostgreSQL; AI-assisted development.</p></div>
     </div>
   </section>
 
   <section id="experience">
     <h2 data-en="Experience" data-es="Experiencia">Experience</h2>
+    <div class="role"><h3 data-en="CNA A-TRES" data-es="CNA A-TRES">CNA A-TRES</h3><div class="meta" data-en="Co-founder and Vice President · Matanzas, Cuba · 2014 – present" data-es="Socio fundador y Vicepresidente · Matanzas, Cuba · 2014 – actualidad">Co-founder and Vice President · Matanzas, Cuba · 2014 – present</div><ul><li data-en="Leads a plant that turns recovered plastics into plastic lumber for street furniture, boardwalks, fencing and light construction." data-es="Dirige una planta que transforma plásticos recuperados en ecomadera para mobiliario urbano, pasarelas, cercas y construcción ligera.">Leads a plant that turns recovered plastics into plastic lumber for street furniture, boardwalks, fencing and light construction.</li><li data-en="Also served as Production Director (2014–2016) and General Director (since 2016); took part in the aluminum production line." data-es="Funciones de dirección de producción (2014–2016) y dirección general (desde 2016); participación en la línea de aluminio.">Also served as Production Director (2014–2016) and General Director (since 2016); took part in the aluminum production line.</li><li data-en="Cut production costs and rework by 15% each by digitizing the process with an ERP system." data-es="Reducción del 15 % de los costes de producción y de los retrabajos tras digitalizar el proceso con un ERP.">Cut production costs and rework by 15% each by digitizing the process with an ERP system.</li></ul></div>
+    <div class="role"><h3 data-en="South-South cooperation project — GEF Small Grants Programme (UNDP)" data-es="Proyecto de cooperación Sur-Sur — PPD/FMAM (PNUD)">South-South cooperation project — GEF Small Grants Programme (UNDP)</h3><div class="meta" data-en="Project lead for CNA A-TRES · Cuba, Belize and Honduras · 2022 – 2025" data-es="Responsable del proyecto por CNA A-TRES · Cuba, Belice y Honduras · 2022 – 2025">Project lead for CNA A-TRES · Cuba, Belize and Honduras · 2022 – 2025</div><ul><li data-en="Technical training for the Belize and Honduras delegations in Cuba, and community workshops in Guadalupe Carney (Honduras)." data-es="Capacitación técnica de las delegaciones de Belice y Honduras en Cuba y talleres comunitarios en Guadalupe Carney (Honduras).">Technical training for the Belize and Honduras delegations in Cuba, and community workshops in Guadalupe Carney (Honduras).</li><li data-en="Technical support for the new plants: the Belize plant was handed over in June 2025; the Honduras plant is under construction." data-es="Acompañamiento técnico de las nuevas plantas: la de Belice se entregó en junio de 2025; la de Honduras está en construcción.">Technical support for the new plants: the Belize plant was handed over in June 2025; the Honduras plant is under construction.</li><li data-en="Budget of USD 350,000: USD 150,000 from the GEF SGP and USD 200,000 in co-financing." data-es="Presupuesto de USD 350.000: USD 150.000 del PPD/FMAM y USD 200.000 de cofinanciación.">Budget of USD 350,000: USD 150,000 from the GEF SGP and USD 200,000 in co-financing.</li></ul></div>
+    <div class="role"><h3 data-en="Jasmine Global Partners Corp." data-es="Jasmine Global Partners Corp.">Jasmine Global Partners Corp.</h3><div class="meta" data-en="Founder and President · Florida, USA · 2026 – present" data-es="Fundador y Presidente · Florida, EE. UU. · 2026 – actualidad">Founder and President · Florida, USA · 2026 – present</div><ul><li data-en="Founded and structured the company as a Florida corporation in June 2026, set up for cross-border work." data-es="Fundé y estructuré la compañía como corporación de Florida en junio de 2026, pensada para operar entre países.">Founded and structured the company as a Florida corporation in June 2026, set up for cross-border work.</li><li data-en="Designed the service and revenue model: project fees, advisory retainers and consulting contracts." data-es="Diseñé el modelo de servicios e ingresos: honorarios por proyecto, retainers de asesoría y contratos de consultoría.">Designed the service and revenue model: project fees, advisory retainers and consulting contracts.</li><li data-en="Services: operational efficiency, sustainable manufacturing and technology transfer for mid-sized companies in Central America and the United States." data-es="Servicios: eficiencia operacional, manufactura sostenible y transferencia tecnológica para empresas medianas de Centroamérica y Estados Unidos.">Services: operational efficiency, sustainable manufacturing and technology transfer for mid-sized companies in Central America and the United States.</li></ul></div>
+    <div class="role"><h3 data-en="University of Informatics Sciences (UCI)" data-es="Universidad de las Ciencias Informáticas (UCI)">University of Informatics Sciences (UCI)</h3><div class="meta" data-en="Lecturer · Havana, Cuba · 2009 – 2012" data-es="Profesor · La Habana, Cuba · 2009 – 2012">Lecturer · Havana, Cuba · 2009 – 2012</div><ul><li data-en="Taught programming and web development." data-es="Docencia en programación y desarrollo web.">Taught programming and web development.</li><li data-en="Led software projects for educational platforms; co-authored a guide on information architecture for educational multimedia." data-es="Dirección de proyectos de software para plataformas educativas; coautor de una guía de arquitectura de información para multimedia educativa.">Led software projects for educational platforms; co-authored a guide on information architecture for educational multimedia.</li></ul></div>
+  </section>
+
+  <section id="projects">
+    <h2 data-en="Projects" data-es="Proyectos">Projects</h2>
     <div class="role">
-      <h3>CNA A-TRES</h3>
-      <div class="meta" data-en="Co-founder and Vice President · Matanzas, Cuba · 2014 – present" data-es="Socio fundador y Vicepresidente · Matanzas, Cuba · 2014 – actualidad">Co-founder and Vice President · Matanzas, Cuba · 2014 – present</div>
+      <h3 data-en="Atlas — behavioral performance platform for traders" data-es="Atlas — plataforma de desempeño conductual para traders">Atlas — behavioral performance platform for traders</h3>
+      <div class="meta" data-en="Founder, architect and product owner · Personal project in development · 2026 – present" data-es="Fundador, arquitecto y product owner · Proyecto propio en desarrollo · 2026 – actualidad">Founder, architect and product owner · Personal project in development · 2026 – present</div>
+      <p data-en="A platform that helps traders stick to their trading plan — process over outcome: session and trade logging, automated rule evaluation and a coach–trader view." data-es="Una plataforma que ayuda a los traders a cumplir su plan de trading —el proceso por encima del resultado—: registro de sesiones y operaciones, evaluación automática de reglas y vista coach-trader.">A platform that helps traders stick to their trading plan — process over outcome: session and trade logging, automated rule evaluation and a coach–trader view.</p>
       <ul>
-        <li data-en="Leads a plant that turns recovered plastics into plastic lumber for street furniture, boardwalks, fencing and light construction." data-es="Dirige una planta que transforma plásticos recuperados en ecomadera para mobiliario urbano, pasarelas, cercas y construcción ligera.">Leads a plant that turns recovered plastics into plastic lumber for street furniture, boardwalks, fencing and light construction.</li>
-        <li data-en="Also served as Production Director (2014–2016) and General Director (since 2016)." data-es="Funciones de dirección de producción (2014–2016) y dirección general (desde 2016).">Also served as Production Director (2014–2016) and General Director (since 2016).</li>
-        <li data-en="Staff training and environmental education activities." data-es="Formación del personal y actividades de educación ambiental.">Staff training and environmental education activities.</li>
+        <li data-en="Product vision and domain model: trading plans, rules, sessions, evidence and capital alerts." data-es="Visión de producto y modelo de dominio: planes de trading, reglas, sesiones, evidencia y alertas de capital.">Product vision and domain model: trading plans, rules, sessions, evidence and capital alerts.</li>
+        <li data-en="Architecture governed by decision records (ADR) and a custom Python linter that checks the consistency of the canon." data-es="Arquitectura gobernada por registros de decisiones (ADR) y un linter propio en Python que verifica la coherencia del canon.">Architecture governed by decision records (ADR) and a custom Python linter that checks the consistency of the canon.</li>
+        <li data-en="Working prototype: NestJS API, Next.js front end in Spanish and English, PostgreSQL, and read-only import of executions from Interactive Brokers." data-es="Prototipo funcional: API en NestJS, frontend en Next.js en español e inglés, PostgreSQL e importación en solo lectura de ejecuciones desde Interactive Brokers.">Working prototype: NestJS API, Next.js front end in Spanish and English, PostgreSQL, and read-only import of executions from Interactive Brokers.</li>
+        <li data-en="Built with AI coding agents under a reviewed pull-request workflow, for a pilot with a trading academy." data-es="Desarrollado con agentes de IA bajo un flujo de pull requests revisados, para un piloto con una academia de trading.">Built with AI coding agents under a reviewed pull-request workflow, for a pilot with a trading academy.</li>
       </ul>
+      <ul class="tags"><li>TypeScript</li><li>NestJS</li><li>Next.js</li><li>PostgreSQL</li><li>Prisma</li><li>Python</li><li>Domain-Driven Design</li><li>ADR</li></ul>
     </div>
-    <div class="role">
-      <h3 data-en="South-South cooperation project — GEF Small Grants Programme (UNDP)" data-es="Proyecto de cooperación Sur-Sur — PPD/FMAM (PNUD)">South-South cooperation project — GEF Small Grants Programme (UNDP)</h3>
-      <div class="meta" data-en="Project lead for CNA A-TRES · Cuba, Belize and Honduras · 2022 – 2025" data-es="Responsable del proyecto por CNA A-TRES · Cuba, Belice y Honduras · 2022 – 2025">Project lead for CNA A-TRES · Cuba, Belize and Honduras · 2022 – 2025</div>
-      <ul>
-        <li data-en="Technical training for the Belize and Honduras delegations in Cuba, and community workshops in Guadalupe Carney (Honduras)." data-es="Capacitación técnica de las delegaciones de Belice y Honduras en Cuba y talleres comunitarios en Guadalupe Carney (Honduras).">Technical training for the Belize and Honduras delegations in Cuba, and community workshops in Guadalupe Carney (Honduras).</li>
-        <li data-en="Technical support for the new plants: the Belize plant was handed over in June 2025; the Honduras plant is under construction." data-es="Acompañamiento técnico de las nuevas plantas: la de Belice se entregó en junio de 2025; la de Honduras está en construcción.">Technical support for the new plants: the Belize plant was handed over in June 2025; the Honduras plant is under construction.</li>
-        <li data-en="Budget of USD 350,000: USD 150,000 from the GEF SGP and USD 200,000 in co-financing." data-es="Presupuesto de USD 350.000: USD 150.000 del PPD/FMAM y USD 200.000 de cofinanciación.">Budget of USD 350,000: USD 150,000 from the GEF SGP and USD 200,000 in co-financing.</li>
-      </ul>
-    </div>
-    <div class="role">
-      <h3>Jasmine Global Partners Corp.</h3>
-      <div class="meta" data-en="Founder and President · Florida, USA · 2026 – present" data-es="Fundador y Presidente · Florida, EE. UU. · 2026 – actualidad">Founder and President · Florida, USA · 2026 – present</div>
-      <p data-en="Consulting firm incorporated in Florida: operational efficiency, sustainable manufacturing and technology transfer for mid-sized companies in Central America and the United States." data-es="Firma de consultoría constituida en Florida: eficiencia operacional, manufactura sostenible y transferencia tecnológica para empresas medianas de Centroamérica y Estados Unidos.">Consulting firm incorporated in Florida: operational efficiency, sustainable manufacturing and technology transfer for mid-sized companies in Central America and the United States.</p>
-    </div>
-    <div class="role">
-      <h3 data-en="University of Informatics Sciences (UCI)" data-es="Universidad de las Ciencias Informáticas (UCI)">University of Informatics Sciences (UCI)</h3>
-      <div class="meta" data-en="Lecturer · Havana, Cuba · 2009 – 2012" data-es="Profesor · La Habana, Cuba · 2009 – 2012">Lecturer · Havana, Cuba · 2009 – 2012</div>
-      <p data-en="Programming and web development; software projects for educational platforms. Engineer in Informatics Sciences (UCI, 2009)." data-es="Programación y desarrollo web; proyectos de software para plataformas educativas. Ingeniero en Ciencias Informáticas (UCI, 2009).">Programming and web development; software projects for educational platforms. Engineer in Informatics Sciences (UCI, 2009).</p>
+  </section>
+
+  <section id="education">
+    <h2 data-en="Education and publication" data-es="Formación y publicación">Education and publication</h2>
+    <div class="edu">
+      <div class="card"><h3 data-en="Engineer in Informatics Sciences" data-es="Ingeniero en Ciencias Informáticas">Engineer in Informatics Sciences</h3><p data-en="University of Informatics Sciences (UCI), Havana · 2004 – 2009. Software engineering, programming and information systems." data-es="Universidad de las Ciencias Informáticas (UCI), La Habana · 2004 – 2009. Ingeniería de software, programación y sistemas de información.">University of Informatics Sciences (UCI), Havana · 2004 – 2009. Software engineering, programming and information systems.</p></div>
+      <div class="card"><h3 data-en="Applied AI for business" data-es="IA aplicada a negocio">Applied AI for business</h3><p data-en="Self-directed intensive program, 2026: decision-support systems, data analysis and process automation." data-es="Programa intensivo autodirigido, 2026: sistemas de apoyo a la decisión, análisis de datos y automatización de procesos.">Self-directed intensive program, 2026: decision-support systems, data analysis and process automation.</p></div>
+      <div class="card"><h3 data-en="Publication (2012)" data-es="Publicación (2012)">Publication (2012)</h3><p><a href="https://nosolousabilidad.com/articulos/guia_ai.htm" target="_blank" rel="noopener">Guía práctica de Arquitectura de Información para aplicaciones multimedia educativas</a>. <span data-en="No Solo Usabilidad no. 11, co-author; cited by universities in Spain and Latin America." data-es="No Solo Usabilidad n.º 11, coautor; citada por universidades de España y Latinoamérica.">No Solo Usabilidad no. 11, co-author; cited by universities in Spain and Latin America.</span></p></div>
     </div>
   </section>
 
   <section id="press">
-    <h2 data-en="Press and publications" data-es="Prensa y publicaciones">Press and publications</h2>
+    <h2 data-en="Press" data-es="Prensa">Press</h2>
     <ul class="press">
       <li><span class="year">2025</span><span><a href="https://www.facebook.com/story.php?story_fbid=1100615915451090&amp;id=100065080746976" target="_blank" rel="noopener">GEF Small Grants Programme – Belize</a> — <span data-en="handover of the Belize plastic upcycling plant" data-es="entrega de la planta de reciclaje de Belice">handover of the Belize plastic upcycling plant</span></span></li>
       <li><span class="year">2023</span><span><a href="https://spanish.news.cn/20230911/79c40fc6ab414b50aba1591fd6110925/c.html" target="_blank" rel="noopener">Xinhua</a> — <span data-en="interview on plastic lumber and import substitution" data-es="entrevista sobre ecomadera y sustitución de importaciones">interview on plastic lumber and import substitution</span></span></li>
       <li><span class="year">2021</span><span><a href="https://diariodecuba.com/cuba/1624718482_32205.html" target="_blank" rel="noopener">Associated Press</a> — <span data-en="Cuban entrepreneurs join the green industry" data-es="emprendedores cubanos se suman a la industria verde">Cuban entrepreneurs join the green industry</span></span></li>
       <li><span class="year">2019</span><span><a href="https://www.infobae.com/america/agencias/2019/12/18/falta-de-hierro-y-madera-empuja-a-cooperativa-cubana-a-convertir-el-plastico-en-ecomadera/" target="_blank" rel="noopener">Reuters</a> — <span data-en="Cuban cooperative turns plastic into plastic lumber" data-es="cooperativa cubana convierte plástico en ecomadera">Cuban cooperative turns plastic into plastic lumber</span></span></li>
       <li><span class="year">2019</span><span><a href="https://www.cubahora.cu/economia/atres-una-cooperativa-cubana-con-una-alternativa-diferente" target="_blank" rel="noopener">Cubahora</a> — <span data-en="interview on A-TRES" data-es="entrevista sobre A-TRES">interview on A-TRES</span></span></li>
-      <li><span class="year">2012</span><span><a href="https://nosolousabilidad.com/articulos/guia_ai.htm" target="_blank" rel="noopener">No Solo Usabilidad</a> — <span data-en="co-author, practical guide to information architecture for educational multimedia" data-es="coautor, guía práctica de arquitectura de información para multimedia educativa">co-author, practical guide to information architecture for educational multimedia</span></span></li>
     </ul>
   </section>
 
   <section id="contact">
     <h2 data-en="Contact" data-es="Contacto">Contact</h2>
-    <p data-en="Open to consulting on plastic recycling, plastic lumber, technical training and circular economy projects in the Caribbean and Central America. Spanish (native) · English (B2)."
-       data-es="Disponible para consultorías en reciclaje de plástico, ecomadera, capacitación técnica y economía circular en el Caribe y Centroamérica. Español (nativo) · Inglés (B2).">Open to consulting on plastic recycling, plastic lumber, technical training and circular economy projects in the Caribbean and Central America. Spanish (native) · English (B2).</p>
+    <p data-en="Open to consulting on circular economy, recycling plants and technical training, operations improvement, and software products. Spanish (native) · English (B2)." data-es="Disponible para consultorías en economía circular, plantas de reciclaje y capacitación técnica, mejora de operaciones y productos de software. Español (nativo) · Inglés (B2).">Open to consulting on circular economy, recycling plants and technical training, operations improvement, and software products. Spanish (native) · English (B2).</p>
     <div class="cta">
       <a class="btn primary" href="https://www.linkedin.com/in/jsbc" rel="me noopener" target="_blank" data-en="Message me on LinkedIn" data-es="Escríbeme por LinkedIn">Message me on LinkedIn</a>
+      <a class="btn ghost" href="https://github.com/josesoto85-cmyk" rel="me noopener" target="_blank">GitHub</a>
     </div>
   </section>
 </main>
@@ -221,7 +233,6 @@ footer { padding: 32px 0 48px; color: var(--muted); font-size: 14px; border-top:
 <footer>
   <div class="wrap">José Antonio Soto Pérez · Cancún, México</div>
 </footer>
-
 <script>
 (function () {
   var nodes = document.querySelectorAll('[data-en]');
@@ -239,5 +250,8 @@ footer { padding: 32px 0 48px; color: var(--muted); font-size: 14px; border-top:
   apply(initial);
 })();
 </script>
+</body>
+</html>
+
 </body>
 </html>
