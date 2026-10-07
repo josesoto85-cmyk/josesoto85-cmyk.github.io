@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>José Antonio Soto Pérez — Circular economy consultant</title>
+<meta name="description" content="José Antonio Soto Pérez: circular economy consultant for plastics. Plastic lumber, technical training and South-South technology transfer in the Caribbean and Central America.">
+<meta property="og:title" content="José Antonio Soto Pérez — Circular economy consultant">
+<meta property="og:description" content="Twelve years turning recovered plastic into plastic lumber, and training communities across the Caribbean and Central America to do the same.">
+<meta property="og:type" content="profile">
+<meta property="og:image" content="https://josesoto85-cmyk.github.io/photo.jpg">
+<link rel="canonical" href="https://josesoto85-cmyk.github.io/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "José Antonio Soto Pérez",
+  "image": "https://josesoto85-cmyk.github.io/photo.jpg",
+  "url": "https://josesoto85-cmyk.github.io/",
+  "alternateName": "Jose Antonio Soto Perez",
+  "jobTitle": "Circular economy consultant",
+  "worksFor": {"@type": "Organization", "name": "CNA A-TRES"},
+  "alumniOf": {"@type": "CollegeOrUniversity", "name": "Universidad de las Ciencias Informáticas"},
+  "address": {"@type": "PostalAddress", "addressLocality": "Cancún", "addressCountry": "MX"},
+  "knowsLanguage": ["es", "en"],
+  "sameAs": ["https://www.linkedin.com/in/jsbc"]
+}
+</script>
+<style>
+:root {
+  --bg: #f7f8f5; --surface: #ffffff; --text: #1d2321; --muted: #5b6662;
+  --accent: #1f6f5c; --accent-soft: #e3efe9; --line: #dfe4e0;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121615; --surface: #1a201e; --text: #e8ece9; --muted: #a2ada8;
+    --accent: #6cc3a6; --accent-soft: #1f2e29; --line: #2b3431;
+  }
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+a { color: var(--accent); }
+.wrap { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+header.top {
+  position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(6px); border-bottom: 1px solid var(--line);
+}
+header.top .wrap { display: flex; align-items: center; justify-content: space-between; height: 56px; gap: 12px; }
+.brand { font-weight: 700; text-decoration: none; color: var(--text); white-space: nowrap; }
+nav { display: flex; gap: 18px; align-items: center; }
+nav a.link { color: var(--muted); text-decoration: none; font-size: 15px; }
+nav a.link:hover { color: var(--text); }
+.lang { display: flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+.lang button {
+  border: 0; background: transparent; color: var(--muted); font: inherit; font-size: 13px;
+  padding: 4px 10px; cursor: pointer;
+}
+.lang button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+.hero { padding: 72px 0 48px; }
+.portrait {
+  width: 120px; height: 120px; border-radius: 50%; object-fit: cover; display: block;
+  margin-bottom: 22px; border: 3px solid var(--surface); box-shadow: 0 0 0 1px var(--line);
+}
+h1 { font-size: clamp(30px, 5vw, 44px); line-height: 1.15; margin: 0 0 12px; }
+.lead { font-size: 19px; color: var(--muted); max-width: 680px; margin: 0 0 28px; }
+.cta { display: flex; flex-wrap: wrap; gap: 12px; }
+.btn {
+  display: inline-block; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: 600;
+  border: 1px solid var(--accent);
+}
+.btn.primary { background: var(--accent); color: #fff; }
+.btn.ghost { color: var(--accent); }
+section { padding: 40px 0; border-top: 1px solid var(--line); }
+h2 { font-size: 24px; margin: 0 0 20px; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-top: 8px; }
+.fact { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+.fact strong { display: block; font-size: 24px; color: var(--accent); }
+.fact span { color: var(--muted); font-size: 14px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(185px, 1fr)); gap: 14px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; }
+.card h3 { margin: 0 0 6px; font-size: 17px; }
+.card p { margin: 0; color: var(--muted); font-size: 15px; }
+.role { margin-bottom: 28px; }
+.role h3 { margin: 0; font-size: 18px; }
+.role .meta { color: var(--muted); font-size: 14px; margin: 2px 0 8px; }
+.role ul { margin: 0; padding-left: 20px; }
+.role li { margin-bottom: 4px; }
+.press { list-style: none; padding: 0; margin: 0; }
+.press li { padding: 12px 0; border-bottom: 1px solid var(--line); display: flex; gap: 14px; }
+.press li:last-child { border-bottom: 0; }
+.press .year { color: var(--muted); min-width: 44px; font-variant-numeric: tabular-nums; }
+footer { padding: 32px 0 48px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); }
+@media (max-width: 640px) {
+  nav a.link { display: none; }
+  .hero { padding: 48px 0 32px; }
+}
+[data-lang-hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#">José Antonio Soto Pérez</a>
+    <nav>
+      <a class="link" href="#about" data-en="About" data-es="Perfil">About</a>
+      <a class="link" href="#experience" data-en="Experience" data-es="Experiencia">Experience</a>
+      <a class="link" href="#press" data-en="Press" data-es="Prensa">Press</a>
+      <a class="link" href="#contact" data-en="Contact" data-es="Contacto">Contact</a>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-set-lang="es" aria-pressed="false">ES</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero" style="border-top:0">
+    <img class="portrait" src="photo.jpg" width="120" height="120" alt="José Antonio Soto Pérez">
+    <h1 data-en="Circular economy consultant for plastics" data-es="Consultor en economía circular de plásticos">Circular economy consultant for plastics</h1>
+    <p class="lead"
+       data-en="Twelve years turning recovered plastic into plastic lumber, and training communities across the Caribbean and Central America to do the same."
+       data-es="Doce años transformando plástico recuperado en ecomadera y enseñando a comunidades del Caribe y Centroamérica a hacerlo.">Twelve years turning recovered plastic into plastic lumber, and training communities across the Caribbean and Central America to do the same.</p>
+    <div class="cta">
+      <a class="btn primary" href="https://www.linkedin.com/in/jsbc" rel="me noopener" target="_blank" data-en="Connect on LinkedIn" data-es="Contactar en LinkedIn">Connect on LinkedIn</a>
+      <a class="btn ghost" href="#experience" data-en="See my work" data-es="Ver mi trabajo">See my work</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 data-en="About" data-es="Perfil">About</h2>
+    <p data-en="I am co-founder and Vice President of CNA A-TRES (Matanzas, Cuba), the cooperative that pioneered plastic lumber (“ecomadera”) production in Cuba from post-industrial and post-consumer plastics, with no virgin resin. I have also taken part in its aluminum production line, including casting."
+       data-es="Soy socio fundador y vicepresidente de CNA A-TRES (Matanzas, Cuba), la cooperativa pionera en Cuba en la producción de ecomadera a partir de plásticos post-industriales y post-consumo, sin resina virgen. También he participado en su línea de aluminio con fundición.">I am co-founder and Vice President of CNA A-TRES (Matanzas, Cuba), the cooperative that pioneered plastic lumber (“ecomadera”) production in Cuba from post-industrial and post-consumer plastics, with no virgin resin. I have also taken part in its aluminum production line, including casting.</p>
+    <p data-en="From 2022 to 2025 I led, on behalf of A-TRES, a South-South cooperation project under the GEF Small Grants Programme (UNDP) that transferred this technology to communities in Belize and Honduras. Based in Cancún, I now work on circular economy and marine litter projects."
+       data-es="Entre 2022 y 2025 fui responsable, por A-TRES, de un proyecto de cooperación Sur-Sur del Programa de Pequeñas Donaciones del FMAM (PNUD) que transfirió esta tecnología a comunidades de Belice y Honduras. Hoy, desde Cancún, colaboro en proyectos de economía circular y basura marina.">From 2022 to 2025 I led, on behalf of A-TRES, a South-South cooperation project under the GEF Small Grants Programme (UNDP) that transferred this technology to communities in Belize and Honduras. Based in Cancún, I now work on circular economy and marine litter projects.</p>
+    <div class="facts">
+      <div class="fact"><strong>12</strong><span data-en="years in plastic recycling" data-es="años en reciclaje de plástico">years in plastic recycling</span></div>
+      <div class="fact"><strong>3</strong><span data-en="countries in the South-South project" data-es="países en el proyecto Sur-Sur">countries in the South-South project</span></div>
+      <div class="fact"><strong>USD 350k</strong><span data-en="project budget (GEF SGP + co-financing)" data-es="presupuesto del proyecto (PPD/FMAM + cofinanciación)">project budget (GEF SGP + co-financing)</span></div>
+      <div class="fact"><strong>2025</strong><span data-en="Belize plant handed over" data-es="entrega de la planta de Belice">Belize plant handed over</span></div>
+    </div>
+  </section>
+
+  <section id="expertise">
+    <h2 data-en="Areas of expertise" data-es="Áreas de especialización">Areas of expertise</h2>
+    <div class="grid">
+      <div class="card"><h3 data-en="Plastic and aluminum processing" data-es="Transformación de plástico y aluminio">Plastic and aluminum processing</h3>
+        <p data-en="Sorting, shredding, extrusion and molding of plastic lumber; aluminum production including casting." data-es="Clasificación, trituración, extrusión y moldeo de ecomadera; producción de aluminio con fundición.">Sorting, shredding, extrusion and molding of plastic lumber; aluminum production including casting.</p></div>
+      <div class="card"><h3 data-en="Technical training" data-es="Capacitación técnica">Technical training</h3>
+        <p data-en="Training design and delivery for technicians and communities, from classroom to hands-on plant workshops." data-es="Diseño y ejecución de capacitación para técnicos y comunidades, del aula al taller práctico en planta.">Training design and delivery for technicians and communities, from classroom to hands-on plant workshops.</p></div>
+      <div class="card"><h3 data-en="Safety in recycling plants" data-es="Seguridad en plantas de reciclaje">Safety in recycling plants</h3>
+        <p data-en="Operating protocols, personal protective equipment and lockout/tagout (LOTO)." data-es="Protocolos de operación, equipos de protección y bloqueo y etiquetado de energías (LOTO).">Operating protocols, personal protective equipment and lockout/tagout (LOTO).</p></div>
+      <div class="card"><h3 data-en="South-South technology transfer" data-es="Transferencia Sur-Sur">South-South technology transfer</h3>
+        <p data-en="Feasibility assessments, community capacity building and coordination with NGOs, local governments and donors." data-es="Diagnósticos de factibilidad, fortalecimiento de capacidades comunitarias y coordinación con ONG, gobiernos locales y donantes.">Feasibility assessments, community capacity building and coordination with NGOs, local governments and donors.</p></div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2 data-en="Experience" data-es="Experiencia">Experience</h2>
+    <div class="role">
+      <h3>CNA A-TRES</h3>
+      <div class="meta" data-en="Co-founder and Vice President · Matanzas, Cuba · 2014 – present" data-es="Socio fundador y Vicepresidente · Matanzas, Cuba · 2014 – actualidad">Co-founder and Vice President · Matanzas, Cuba · 2014 – present</div>
+      <ul>
+        <li data-en="Leads a plant that turns recovered plastics into plastic lumber for street furniture, boardwalks, fencing and light construction." data-es="Dirige una planta que transforma plásticos recuperados en ecomadera para mobiliario urbano, pasarelas, cercas y construcción ligera.">Leads a plant that turns recovered plastics into plastic lumber for street furniture, boardwalks, fencing and light construction.</li>
+        <li data-en="Also served as Production Director (2014–2016) and General Director (since 2016)." data-es="Funciones de dirección de producción (2014–2016) y dirección general (desde 2016).">Also served as Production Director (2014–2016) and General Director (since 2016).</li>
+        <li data-en="Staff training and environmental education activities." data-es="Formación del personal y actividades de educación ambiental.">Staff training and environmental education activities.</li>
+      </ul>
+    </div>
+    <div class="role">
+      <h3 data-en="South-South cooperation project — GEF Small Grants Programme (UNDP)" data-es="Proyecto de cooperación Sur-Sur — PPD/FMAM (PNUD)">South-South cooperation project — GEF Small Grants Programme (UNDP)</h3>
+      <div class="meta" data-en="Project lead for CNA A-TRES · Cuba, Belize and Honduras · 2022 – 2025" data-es="Responsable del proyecto por CNA A-TRES · Cuba, Belice y Honduras · 2022 – 2025">Project lead for CNA A-TRES · Cuba, Belize and Honduras · 2022 – 2025</div>
+      <ul>
+        <li data-en="Technical training for the Belize and Honduras delegations in Cuba, and community workshops in Guadalupe Carney (Honduras)." data-es="Capacitación técnica de las delegaciones de Belice y Honduras en Cuba y talleres comunitarios en Guadalupe Carney (Honduras).">Technical training for the Belize and Honduras delegations in Cuba, and community workshops in Guadalupe Carney (Honduras).</li>
+        <li data-en="Technical support for the new plants: the Belize plant was handed over in June 2025; the Honduras plant is under construction." data-es="Acompañamiento técnico de las nuevas plantas: la de Belice se entregó en junio de 2025; la de Honduras está en construcción.">Technical support for the new plants: the Belize plant was handed over in June 2025; the Honduras plant is under construction.</li>
+        <li data-en="Budget of USD 350,000: USD 150,000 from the GEF SGP and USD 200,000 in co-financing." data-es="Presupuesto de USD 350.000: USD 150.000 del PPD/FMAM y USD 200.000 de cofinanciación.">Budget of USD 350,000: USD 150,000 from the GEF SGP and USD 200,000 in co-financing.</li>
+      </ul>
+    </div>
+    <div class="role">
+      <h3>Jasmine Global Partners Corp.</h3>
+      <div class="meta" data-en="Founder and Operator · Florida, USA · 2026 – present" data-es="Fundador y Operador · Florida, EE. UU. · 2026 – actualidad">Founder and Operator · Florida, USA · 2026 – present</div>
+      <p data-en="Consulting in operational transformation, sustainable manufacturing and technology transfer for mid-sized companies in Central America and the United States." data-es="Consultoría en transformación operacional, manufactura sostenible y transferencia tecnológica para empresas medianas de Centroamérica y Estados Unidos.">Consulting in operational transformation, sustainable manufacturing and technology transfer for mid-sized companies in Central America and the United States.</p>
+    </div>
+    <div class="role">
+      <h3 data-en="University of Informatics Sciences (UCI)" data-es="Universidad de las Ciencias Informáticas (UCI)">University of Informatics Sciences (UCI)</h3>
+      <div class="meta" data-en="Lecturer · Havana, Cuba · 2009 – 2012" data-es="Profesor · La Habana, Cuba · 2009 – 2012">Lecturer · Havana, Cuba · 2009 – 2012</div>
+      <p data-en="Programming and web development; software projects for educational platforms. Engineer in Informatics Sciences (UCI, 2009)." data-es="Programación y desarrollo web; proyectos de software para plataformas educativas. Ingeniero en Ciencias Informáticas (UCI, 2009).">Programming and web development; software projects for educational platforms. Engineer in Informatics Sciences (UCI, 2009).</p>
+    </div>
+  </section>
+
+  <section id="press">
+    <h2 data-en="Press and publications" data-es="Prensa y publicaciones">Press and publications</h2>
+    <ul class="press">
+      <li><span class="year">2025</span><span><a href="https://www.facebook.com/story.php?story_fbid=1100615915451090&amp;id=100065080746976" target="_blank" rel="noopener">GEF Small Grants Programme – Belize</a> — <span data-en="handover of the Belize plastic upcycling plant" data-es="entrega de la planta de reciclaje de Belice">handover of the Belize plastic upcycling plant</span></span></li>
+      <li><span class="year">2023</span><span><a href="https://spanish.news.cn/20230911/79c40fc6ab414b50aba1591fd6110925/c.html" target="_blank" rel="noopener">Xinhua</a> — <span data-en="interview on plastic lumber and import substitution" data-es="entrevista sobre ecomadera y sustitución de importaciones">interview on plastic lumber and import substitution</span></span></li>
+      <li><span class="year">2021</span><span><a href="https://diariodecuba.com/cuba/1624718482_32205.html" target="_blank" rel="noopener">Associated Press</a> — <span data-en="Cuban entrepreneurs join the green industry" data-es="emprendedores cubanos se suman a la industria verde">Cuban entrepreneurs join the green industry</span></span></li>
+      <li><span class="year">2019</span><span><a href="https://www.infobae.com/america/agencias/2019/12/18/falta-de-hierro-y-madera-empuja-a-cooperativa-cubana-a-convertir-el-plastico-en-ecomadera/" target="_blank" rel="noopener">Reuters</a> — <span data-en="Cuban cooperative turns plastic into plastic lumber" data-es="cooperativa cubana convierte plástico en ecomadera">Cuban cooperative turns plastic into plastic lumber</span></span></li>
+      <li><span class="year">2019</span><span><a href="https://www.cubahora.cu/economia/atres-una-cooperativa-cubana-con-una-alternativa-diferente" target="_blank" rel="noopener">Cubahora</a> — <span data-en="interview on A-TRES" data-es="entrevista sobre A-TRES">interview on A-TRES</span></span></li>
+      <li><span class="year">2012</span><span><a href="https://nosolousabilidad.com/articulos/guia_ai.htm" target="_blank" rel="noopener">No Solo Usabilidad</a> — <span data-en="co-author, practical guide to information architecture for educational multimedia" data-es="coautor, guía práctica de arquitectura de información para multimedia educativa">co-author, practical guide to information architecture for educational multimedia</span></span></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2 data-en="Contact" data-es="Contacto">Contact</h2>
+    <p data-en="Open to consulting on plastic recycling, plastic lumber, technical training and circular economy projects in the Caribbean and Central America. Spanish (native) · English (B2)."
+       data-es="Disponible para consultorías en reciclaje de plástico, ecomadera, capacitación técnica y economía circular en el Caribe y Centroamérica. Español (nativo) · Inglés (B2).">Open to consulting on plastic recycling, plastic lumber, technical training and circular economy projects in the Caribbean and Central America. Spanish (native) · English (B2).</p>
+    <div class="cta">
+      <a class="btn primary" href="https://www.linkedin.com/in/jsbc" rel="me noopener" target="_blank" data-en="Message me on LinkedIn" data-es="Escríbeme por LinkedIn">Message me on LinkedIn</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">José Antonio Soto Pérez · Cancún, México</div>
+</footer>
+
+<script>
+(function () {
+  var nodes = document.querySelectorAll('[data-en]');
+  var buttons = document.querySelectorAll('[data-set-lang]');
+  function apply(lang) {
+    document.documentElement.lang = lang;
+    nodes.forEach(function (n) { n.textContent = n.getAttribute('data-' + lang); });
+    buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-set-lang') === lang)); });
+    try { localStorage.setItem('lang', lang); } catch (e) {}
+  }
+  var saved = null;
+  try { saved = localStorage.getItem('lang'); } catch (e) {}
+  var initial = saved || ((navigator.language || 'en').toLowerCase().indexOf('es') === 0 ? 'es' : 'en');
+  buttons.forEach(function (b) { b.addEventListener('click', function () { apply(b.getAttribute('data-set-lang')); }); });
+  apply(initial);
+})();
+</script>
+</body>
+</html>
